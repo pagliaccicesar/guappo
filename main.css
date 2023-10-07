@@ -149,7 +149,7 @@ body {
     animation-name: leftslide;
     animation-duration: 0.8s;
     max-height: 500px;
-    max-width: 55%;
+    max-width: 47%;
     overflow: hidden;
   }
   .box .infobox-boldtext {
@@ -162,7 +162,7 @@ body {
     
   }
   .box .infobox-slimtext {
-    margin: 24px 0;    
+    margin: 24px 23px;    
     /*color: #fdb700;*/
     background: linear-gradient(93.51deg, gold 2.84%, white 99.18%);
     /*background: linear-gradient(93.51deg, #9B51E0 2.84%, #3081ED 99.18%);*/
@@ -239,8 +239,7 @@ body {
   }
   .box .display .info {
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
     font-style: normal;
     color: #FFFFFF;
     font-weight: 600;
