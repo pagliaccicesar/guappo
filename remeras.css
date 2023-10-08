@@ -361,7 +361,8 @@ i {
 }
 .contenedorCards .card .wrapper .infoProd .actions .preciosGrupo .precio {
   font-family: "Roboto", sans-serif;
-  color: #1d1d1d;
+  color: #FF5200;
+  /*color: #1d1d1d;*/
   font-size: 25px;
   font-weight: 600;
   text-align: left;
@@ -370,9 +371,9 @@ i {
   position: absolute;
   left: 0;
   top: -15px;
-  color: red;
+  color: gold;
   font-size: 15px;
-  text-decoration: line-through;
+  /*text-decoration: line-through;*/
 }
 .contenedorCards .card .wrapper .infoProd .actions .preciosGrupo .precio.precioOferta:before {
   font-size: 12px;

@@ -276,9 +276,17 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
   }
-  .precio {
+  .precioenvio {
     position: absolute;
     padding-top: 45px;
+    right: 10%;
+    color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+  .precio {
+    position: absolute;
+    padding-top: 60px;
     right: 10%;
     color: #FF5200;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
