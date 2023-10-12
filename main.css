@@ -679,7 +679,7 @@ i {
     font-weight: 400;
     font-size: 12px;
     line-height: 36px;
-    color: #828282;
+    color: #D7D7D7;
   }
   
   .item {
@@ -935,6 +935,9 @@ i {
     .auction .wsk-btn {
       position: relative;
       top: 30px;
+    }
+    .footer2 p {
+      font-size: 10px;
     }
   }
   @keyframes leftslide {

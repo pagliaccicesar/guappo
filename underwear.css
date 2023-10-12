@@ -14,16 +14,15 @@
   }
 
   h1 {  
-    position: absolute;   
-    /*padding: 35px;*/
-   margin: 55px 25px ;
+    position: absolute;  
+    margin: 55px 25px ;
     text-align: center; 
     font-family: "itc-avant-garde-gothic-pro",sans-serif;
     font-weight: 800;
     font-style: normal;
     color: white;
     font-size: 2.667vw;
-    line-height: .15vw;   
+    line-height: .15vw; 
   }  
   #neon-text {
     animation: flicker 6s linear infinite;
