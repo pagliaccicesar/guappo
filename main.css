@@ -88,7 +88,7 @@ body {
   .landingpage .footer2 {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     border-top: 1px solid #F2F2F2;
   }
   
@@ -495,7 +495,7 @@ i {
     z-index: 1000;
     position: fixed;    
     right: 20px;
-    top: 600px;
+    top: 540px;
     display: flex;
     margin: 0;
     list-style: none;
