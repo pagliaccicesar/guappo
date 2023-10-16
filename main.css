@@ -6,18 +6,6 @@ src:url("https://use.typekit.net/af/578a9d/00000000000000007735ba14/30/l?primer=
 font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
 }
 
-@font-face {
-font-family:"itc-avant-garde-gothic-pro";
-src:url("https://use.typekit.net/af/b89a53/00000000000000007735ba1d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/b89a53/00000000000000007735ba1d/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/b89a53/00000000000000007735ba1d/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
-font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
-}
-
-@font-face {
-font-family:"itc-avant-garde-gothic-pro";
-src:url("https://use.typekit.net/af/6161d4/00000000000000007735ba1e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/6161d4/00000000000000007735ba1e/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/6161d4/00000000000000007735ba1e/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
-font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
-}
-
 .tk-itc-avant-garde-gothic-pro {
     font-family: "itc-avant-garde-gothic-pro",sans-serif;
 }
@@ -70,7 +58,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 70px;
   }
   .landingpage .auction {
     margin-top: 80px;
@@ -85,65 +73,91 @@ body {
     align-items: center;
     justify-content: space-between;
   }
-  .landingpage .footer2 {
+.landingpage .footer2 {
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
     border-top: 1px solid #F2F2F2;
-  }
-  
-  .navbar .hamburgerlogowrap {
-    display: flex;
-    align-items: center;
-  }
-  .navbar .hamburger {
-    display: none;
-    color: #D7D7D7;
-    background-color: #1F1D2B;
-    border: none;
-    margin-right: 10px;
-  }
-  .navbar .createbtn {
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-    width: 116px;
-    height: 30px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
-    color: white;    
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-  }
-  .navbar .createbtn.selectedbtn:hover {
-    border: 1px solid #D7D7D7;
-    color:#828282;    
-    border-radius: 1px;
-  }
-  .navbar .navlogo {
-    height: 100%;
-    /*background: linear-gradient(93.51deg, #9B51E0 2.84%, #3081ED 99.18%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    color: gold;*/
+}
+
+/*****  menu hamburguesa   *****************/
+.navbar, .navbar-default {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 1rem 0.5rem !important;
+}
+.navbar-nav > li > a:link,
+.navbar-nav > li > a:visited {
+  color: white !important;
+  text-transform: uppercase !important;
+  font-size: 1.2rem;  
+  padding: 0;
+  margin: 15px;
+}  
+.navbar-brand {
+    height: 100%;    
     background: linear-gradient(93.51deg, gold 2.84%, white 99.18%);   
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-  }
-  
-  .navbar .navlink.selectedlink {
-    background: linear-gradient(93.51deg, #9B51E0 2.84%, #3081ED 99.18%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border-bottom: 1.5px solid #9B51E0;
-  }
-  .navbar .navlink:not(:last-child) {
-    margin-right: 32px;
-  }
+    font-size: 26px !important;  
+}  
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:active {
+  color: white !important;
+  text-transform: uppercase !important; 
+  padding: 0;
+  margin: 15px;
+}  
+.navbar-scrolled {
+  background-color: black !important;   
+  transition: background-color 0.4s;
+  box-shadow: 0 0 10px 2px;
+}  
+.navbar-default .navbar-toggle:hover {   
+  background-color: black !important;   
+  transition: all 0.4s;
+}  
+.navbar-default .navbar-toggle:focus {    
+  background-color: gold !important;
+}  
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white !important;
+}
+
+
+.navbar .createbtn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  width: 116px;
+  height: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+  color: white;    
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px !important;
+}
+.navbar .createbtn.selectedbtn:hover {
+  border: 1px solid #D7D7D7;
+  color:#828282;    
+  border-radius: 1px;
+}
+#main-menu-items {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+ 
   
   .box .infobox {
     animation-name: leftslide;
@@ -762,6 +776,18 @@ i {
       max-width: 1400px;
     }
   }
+
+ /* @media (min-width: 768px) and (max-width: 1115px) {
+    .landingpage .navbar{
+    display: flex;
+    
+    align-items: right;
+    justify-content:space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+    padding: 10px 20px;
+    width: 80%;
+  }}*/
   @media screen and (max-width: 1040px) {
     .box {
       flex-direction: column;
@@ -872,9 +898,16 @@ i {
     .landingpage {
       padding: 0 20px;
     }
+    .landingpage .box {
+      margin-top: 40px;
+    }
 
     .navbar .navlogo {
       font-size: 12px;
+    }
+
+    .navbar-brand {
+      font-size: 18px !important;
     }
   
     .box .infobox-boldtext {
@@ -926,6 +959,10 @@ i {
       line-height: 1.4em;
       text-align: center;
     }
+    .landingpage .box {
+      margin-top: 35px;
+    }
+
     .landingpage .box .infobox-slimtext {
       text-align: center;
     }
@@ -940,6 +977,15 @@ i {
       font-size: 10px;
     }
   }
+  @media screen and (max-width: 380px) {
+    .navbar-brand {
+      font-size: 14px !important;
+  }
+  .landingpage .box {
+    margin-top: 40px;
+  }
+}
+
   @keyframes leftslide {
     from {
       transform: translateX(-700px);
