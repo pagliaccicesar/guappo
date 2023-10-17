@@ -442,6 +442,8 @@ i {
 
 .footer-main {
   max-width: 40%;
+  /*margin-left: 10%;*/
+  margin-left: 180px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -469,7 +471,7 @@ i {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 30px;
   letter-spacing: 0.03em;
   color: #D7D7D7;
 }
@@ -627,6 +629,50 @@ html, body {
   text-decoration: none;
 }
 
+/**   tabla de medidas  **/
+
+table#miyazaki {
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /*font-family: Agenda-Light, sans-serif;*/
+  font-weight: 100;
+  background: #333;
+  color: #fff;
+  text-rendering: optimizeLegibility;
+  border-radius: 5px;
+}
+table#miyazaki caption {
+  font-size: 1.5rem;
+  color: gold;
+  margin: 0.5rem;
+  /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/miyazaki.png),
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/miyazaki2.png);*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left, center right;
+}
+table#miyazaki thead th {
+  font-weight: 600;
+}
+table#miyazaki thead th,
+table#miyazaki tbody td {
+  padding: 0.8rem;
+  font-size: 1.0rem;
+  text-align: center;
+}
+table#miyazaki tbody td {
+  padding: 0.3rem;
+  font-size: 1.0rem;
+  color: #444;
+  background: gold;
+  /*background: #eee;*/
+}
+table#miyazaki tbody tr:not(:last-child) {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
 
 /**  @media del footer  **/
 
@@ -636,6 +682,7 @@ html, body {
   }
   .footer-main {
     max-width: 80%;
+    margin-left: 0;
     margin-bottom: 50px;
     text-align: center;
   }

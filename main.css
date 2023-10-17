@@ -74,6 +74,7 @@ body {
     justify-content: space-between;
   }
 .landingpage .footer2 {
+    margin: 20px 0 1px;
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
