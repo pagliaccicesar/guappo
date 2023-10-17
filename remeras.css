@@ -668,8 +668,8 @@ table#miyazaki tbody td {
   font-size: 1.0rem;
   color: black;
   /*color: #444;*/
-  background: gold;
-  /*background: #eee;*/
+  
+  background: #eee;
 }
 table#miyazaki tbody tr:not(:last-child) {
   border-top: 1px solid #ddd;
