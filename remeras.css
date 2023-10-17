@@ -638,7 +638,8 @@ table#miyazaki {
   /*font-family: Agenda-Light, sans-serif;*/
   font-weight: 100;
   background: #333;
-  color: #fff;
+  color: #FF5200;
+  /*color: #fff;*/
   text-rendering: optimizeLegibility;
   border-radius: 5px;
 }
@@ -653,7 +654,8 @@ table#miyazaki caption {
   background-position: center left, center right;
 }
 table#miyazaki thead th {
-  font-weight: 600;
+  font-weight: 500;
+  line-height: normal;
 }
 table#miyazaki thead th,
 table#miyazaki tbody td {
@@ -664,7 +666,8 @@ table#miyazaki tbody td {
 table#miyazaki tbody td {
   padding: 0.3rem;
   font-size: 1.0rem;
-  color: #444;
+  color: black;
+  /*color: #444;*/
   background: gold;
   /*background: #eee;*/
 }
