@@ -35,11 +35,12 @@ body ul, body li {
 
 h1 {    
   padding: 35px;
-  text-align: center; 
+  text-align: left; 
   font-family: "itc-avant-garde-gothic-pro",sans-serif;
   font-weight: 800;
   font-style: normal;
   color: white;
+  font-size: 220%;
   /*font-size: 2.667vw;*/
   line-height: .15vw;   
 }  
@@ -47,6 +48,13 @@ h1 {
   animation: flicker 6s linear infinite;
 }
 
+.inicio {
+  position:absolute;  
+  top: 35px;
+  right: 23px;
+  width: 23px;
+  height: auto;
+}
 @keyframes flicker {
   0% {
     /*3*/
@@ -691,6 +699,14 @@ table#miyazaki tbody tr:not(:last-child) {
   }
   .footer-navigate .nav:first-child {
     margin: 0;
+  }
+}
+@media screen and (max-width: 770px) {
+  .inicio {    
+    top: 25px;
+    right: 23px;
+    width: 23px;
+    height: auto;
   }
 }
 
