@@ -174,7 +174,7 @@ body {
     max-width: 50%;
     overflow: hidden;    
     z-index: 100;
-    background: repeating-conic-gradient(#FFF9 0%, transparent .00004%, transparent .163345%);
+    /*background: repeating-conic-gradient(#FFF9 0%, transparent .00004%, transparent .163345%);*/
   }
   .box .infobox-boldtext {
     margin: 0;   
