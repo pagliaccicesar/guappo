@@ -27,6 +27,15 @@
   #neon-text {
     animation: flicker 6s linear infinite;
   }
+
+  .inicio {
+    position:absolute;  
+    /*margin: 55px 0px 0px 20px;*/
+    top: 55px;
+    right: 23px;
+    width: 23px;
+    height: auto;
+  }
   
   @keyframes flicker {
     0% {
@@ -571,6 +580,12 @@ html, body {
       /*font-size: 2.667vw;*/
       line-height: .15vw;   
       z-index: 1000;
+    }
+    .inicio {
+      top: 17px;
+      width: 20px;
+      right: 17px;
+      height: auto;
     }
     .gallery-inner {     
       width: 250px;

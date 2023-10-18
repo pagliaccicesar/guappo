@@ -143,13 +143,13 @@ body {
   cursor: pointer;
   background-color: transparent;
   border: none;
-  width: 78px;
+  width: 100px;
   height: 30px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
   color: white;    
   font-style: normal;
   font-weight: 500;
-  font-size: 10px !important;
+  font-size: 13px !important;
 }
 .navbar .createbtn.selectedbtn:hover {
   /*border: 1px solid #D7D7D7;*/
@@ -934,18 +934,7 @@ i {
     
 }
 
-
-
-
-
-
 /*****   fin murcielago   ******/
-
-
-
-
-
-
 
   .box .display .info-img {
     object-fit: cover;
@@ -1283,6 +1272,9 @@ i {
     }
     .navbar-brand {
       font-size: 18px !important;      
+    }
+    .landingpage .auction {
+      margin-top: 10px;
     }
 
     .landingpage .box .infobox-slimtext {
