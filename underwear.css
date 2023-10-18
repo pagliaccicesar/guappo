@@ -650,7 +650,7 @@ html, body {
   }
   .footer-navigate .nav p {
     font-size: 10px;
-    line-height: 18px;
+    line-height: 30px;
   }
 }
 @media screen and (max-width: 480px) {
