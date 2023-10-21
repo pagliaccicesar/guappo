@@ -10,13 +10,13 @@
   
     /** Initializes the map and the custom popup. */
     map = new google.maps.Map(document.getElementById("map"), {      
-      center: { lat: -33.4, lng: -70.650},
+      center: { lat: -33.437, lng: -70.658},
       zoom: 13
     });
   
     Popup = createPopupClass();
     popup = new Popup(
-      new google.maps.LatLng(-33.437, -70.650),
+      new google.maps.LatLng(-33.437, -70.658),
       document.getElementById("content")
     );
     popup.setMap(map);
