@@ -369,7 +369,8 @@ i {
   position: relative;
 }
 .nombreProd ,.extraInfo {
-  color: #666;
+  color: #D7D7D7;
+  /*color: rgb(102, 102, 102);*/
 }
 .contenedorCards .card .wrapper .infoProd .actions .preciosGrupo .precio {
   font-family: "Roboto", sans-serif;
