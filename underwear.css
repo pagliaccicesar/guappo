@@ -199,7 +199,7 @@
 
   
   .wrapper {
-    margin-top: 1px;
+    margin-top: 21px;
     width: 1200px;
     display: flex;
     flex-wrap: wrap;
@@ -214,7 +214,7 @@
     height: 400px;
     overflow: hidden;
     /*margin: 30px;*/
-    margin: 50px 15px;
+    margin: 30px 15px;
     cursor: pointer;
     border-radius: 4px;
   }
@@ -260,12 +260,18 @@
     margin: auto;
   }
 
-
-
   .desc  {
     display: inline-block;    
     position: relative;
     width: auto; 
+  }
+  .carrito {
+    margin-left: 18px;
+    width: 28px;   
+  }
+  .whatsapp {
+    margin-left: 15px;
+    width: 28px;   
   }
 
   .descripcion {
@@ -563,7 +569,7 @@ html, body {
 
   @media screen and (max-width: 1200px) {
     .wrapper {
-      margin-top: 55px;
+      margin-top: 75px;
       
   }
 }
@@ -593,6 +599,14 @@ html, body {
       /*margin: 50px 15px;*/
       cursor: pointer;
       border-radius: 4px;
+    }
+    .carrito {
+      margin-left: 18px;
+      width: 23px;   
+    }
+    .whatsapp {
+      margin-left: 15px;
+      width: 23px;   
     }
   }
 
