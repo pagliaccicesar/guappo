@@ -54,5 +54,25 @@ for (var i = 0, row; row = tablebody.rows[i]; i++) {
   } 
 }
 
+/*** funcion enviar correo formspree ***/
+
+/**const enviar=async(event)=>{
+  event.preventDefault();
+  const formulario=document.querySelector('form');
+  const infoForm= new FormData(formulario);
+
+  await fetch("https://formspree.io/f/xrgwkwbz",{
+    method:'post',
+    body:infoForm,
+    headers:{
+      'Accept':'application/json'
+    }
+  })
+
+.then(()=>window.location.href="./reply.html")
+.catch((error)=>console.log(error))
+formulario.reset()
+}*/
+
 
 

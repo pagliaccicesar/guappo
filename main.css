@@ -1327,6 +1327,22 @@ html, body {
   text-decoration: none;
 }
 
+input .casilla {
+  width: 50px;
+  color:#9B51E0;
+}
+
+@media screen and (max-width: 500px) {
+   .casilla {
+    width: 110px;
+  }
+  .boton {
+    width: 50px;
+    text-align:start;
+    font-size: smaller;
+  }
+}
+
 /** css de galeria  ***/
 
 @import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i');
